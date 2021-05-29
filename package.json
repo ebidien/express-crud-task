@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/ebidien/express-crud-task/issues"
   },
-  "homepage": "https://github.com/ebidien/express-crud-task#readme"
+  "homepage": "https://github.com/ebidien/express-crud-task#readme",
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.8"
+  }
 }
