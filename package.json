@@ -1,0 +1,25 @@
+{
+  "name": "express-crud-task",
+  "version": "1.0.0",
+  "description": "An Express REST API CRUD app with MongoDB Atlas and hosted on Heroku",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebidien/express-crud-task.git"
+  },
+  "author": "Dienebi Ombu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebidien/express-crud-task/issues"
+  },
+  "homepage": "https://github.com/ebidien/express-crud-task#readme"
+}
