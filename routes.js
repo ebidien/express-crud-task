@@ -4,7 +4,7 @@ const Contact = require('./models/Contact');
 
 //GET Request to '/' for Welcome message
 app.get('/', function (req, res) {
-    res.send('<h1>Welcome to my CRUD REST API Task from Zuri Training</h1>')
+    res.send('<h1 style = "color: darkslateblue; font-family: Arial, Helvetica, sans-serif;">Welcome to my CRUD REST API Task from Zuri Training!</h1>')
 });
 
 //POST Request to '/contacts' to create a new Contact
