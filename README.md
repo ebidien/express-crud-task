@@ -1,7 +1,11 @@
 ﻿# express-crud-task
+## Home - Welcome Page
+Method `GET`  
+URL: `https://express-crud-task.herokuapp.com`
+
 ## Create a Contact
-Method `POST`.  
-URL: `https://express-crud-task.herokuapp.com/contacts`.  
+Method `POST`  
+URL: `https://express-crud-task.herokuapp.com/contacts`  
 ### Payload 
 ```
 name: string,
