@@ -2,6 +2,11 @@ const express = require('express');
 const app = express();
 const Contact = require('./models/Contact');
 
+//GET Request to '/' for Welcome message
+app.get('/', function (req, res) {
+    res.send('<h1>Welcome to my CRUD REST API Task from Zuri Training</h1>')
+});
+
 //POST Request to '/contacts' to create a new Contact
 app.post('/contacts', function (req, res) {
     //Retrieve the Contact details from req body
