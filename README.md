@@ -20,6 +20,10 @@ URL: `https://express-crud-task.herokuapp.com/contacts`
 Method `GET`  
 URL: `https://express-crud-task.herokuapp.com/contacts/:id`
 
+## Update a Contact  
+Method `PUT`  
+URL: `https://express-crud-task.herokuapp.com/contacts/:id`
+
 ## Delete a Contact  
 Method `DELETE`  
 URL: `https://express-crud-task.herokuapp.com/contacts/:id`
